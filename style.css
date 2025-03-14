@@ -636,16 +636,16 @@ footer{
 
 .section-thirteen{
     display: flex;
-    padding: 0px 60px;
+    padding: 0px 60px 40px;
     justify-content: space-around;
 
     h6{
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 700;
         color: rgba(115, 115, 115, 1);
     }
     img{
-        width: 120px;
+        width: 150px;
     }
 }
 
@@ -824,4 +824,287 @@ footer{
         }         
     }
 }
-
+@media screen and (max-width:430px) {
+    body{
+        width: 100vw;
+    }
+    .header{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        div{
+            flex-direction: column;
+            gap: 30px;
+    }
+    .join{
+        display: none;
+    }
+}
+    .section-one{
+        padding: 30px;
+        h5{
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        h1{
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 12px;
+        }
+        .button-get{
+            padding: 10px 25px;
+            font-size: 12px;
+        }
+        .button-learn{
+            padding: 10px 20px;
+            font-size: 12px;
+        }
+    }
+    .section-two{
+        padding: 30px 50px;
+        h6{
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        h2{
+            font-size: 25px;
+            margin-bottom: 8px;
+        }
+        p{
+            font-size: 11px;
+            line-height: 16px;
+        }
+    }
+    .section-three{
+        padding-top: 10px;
+        .training{
+            padding: 25px;
+            width: 170px;
+            height: 200px;
+        }
+        img{
+            width: 35px;
+            margin-top: 0px;
+        }
+        h4{
+            font-size: 12px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        p{
+            width: 120px;
+            font-size: 10px;
+            line-height: 16px;
+        }
+        .sector , .sector-white{
+            margin-bottom: 18px;
+        }
+    }
+    .section-four{
+        .image{
+            width: 250px;
+            height: 230px;
+            top: 250px;
+            left: -10px;
+        }
+        .division-two{
+            width: 100%;
+            padding: 50px;
+            .line{
+                height: 7px;
+                margin-bottom: 12px;
+            }
+            h2{
+                font-size: 25px;
+                margin-bottom: 13px;
+            }
+            p{
+                font-size: 11px;
+                margin-bottom: 17px;
+            }
+            .link{
+                font-size: 12px;
+            }
+        }
+    }
+    .section-five{
+        padding: 0;
+        .division-one{
+            padding: 0px 90px;
+            .sector{
+                height: 7px;
+                margin-bottom: 12px;
+            }
+            h2{
+                font-size: 25px;
+                margin-bottom: 13px;
+            }
+            p{
+                font-size: 10px;
+                line-height: 15px;
+                margin-bottom: 20px;
+            }
+            .link , .icon{
+                font-size: 12px;
+            }
+        }
+        .videocard{
+            width: 330px;
+            height: 230px;
+        }
+    }
+    .section-six{
+        padding: 150px 50px 50px;
+        h6{
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        h2{
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 11px;
+            line-height: 15px;
+        }
+    }
+    .section-seven{
+        padding: 0px 100px;    
+        .height{
+            width: 170px;
+        }
+    
+        .mini-div{
+            width: 160px;
+        }
+        .courses{
+            font-size: 13px;
+        }
+        .frame{
+            width: 35px;
+        }
+        .victory{
+            margin-top: 10px;
+            gap: 9px;
+            margin-bottom: 8px;
+        }
+        .live-action{
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        p{
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .sales{
+            gap: 4px;
+            margin-bottom: 11px;
+        }
+        .png{
+            width: 12px;
+        }
+        h6{
+            font-size: 13px;
+        }
+        .price-list{
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .tag-one , .tag-two{
+            font-size: 13px;
+        }
+        
+        .button{
+            font-size: 11px;
+            border-radius: 37px;
+            padding: 8px 12px;
+        }
+    }
+    .section-eight{
+        padding: 130px 50px 50px;
+        h6{
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        h2{
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 11px;
+            line-height: 15px;
+        }
+    }
+    .section-nine{
+        .category{
+            width: 330px;
+        }
+    }
+    .section-ten{
+        padding: 120px 50px 40px;
+        h6{
+            font-size: 14px;
+            margin-bottom: 7px;
+        }
+        h2{
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 11px;
+            line-height: 15px;
+        }
+    }
+    .section-eleven{
+        p{
+            font-size: 11px;
+            line-height: 15px;
+        }
+    }
+    .section-twelve{
+        width: 100% auto;
+        h6{
+            font-size: 14px;
+        }
+        h2{
+            font-size: 25px;
+        }
+        p{
+            font-size: 11px;
+        }
+    }
+    footer{
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        grid-template-rows: 1fr 1fr 1fr;
+        .main , .main-one{
+            padding-right: 6px;
+            width: fit-content;
+            padding: 10px;
+        }
+        h5{
+            font-size: 15px;
+        }
+        a{
+            font-size: 12px;
+        }
+    }
+    .section-thirteen{
+        align-items: center;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+        h6{
+            font-size: 11px;
+        }
+        img{
+            width: 120px;
+        }
+    }
+}
+   
