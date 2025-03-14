@@ -827,6 +827,7 @@ footer{
 @media screen and (max-width:430px) {
     body{
         width: 100vw;
+        overflow-x: hidden;
     }
     .header{
         display: flex;
